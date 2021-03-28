@@ -1,0 +1,44 @@
+/* Style buttons */
+.btn {
+  background-color: #1B1038; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 14px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  width:280px;
+  height:150px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 50px;
+  border-radius: 200px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #9855A9;
+}
+
+.btn-image {
+    background-image: url('../public/img/guiapro.png') !important;
+    background-size: contain; //or cover
+}
+
+ .round {
+
+   background-color: #9855A9;
+   width: auto;
+   height: auto;
+   margin: 0 auto 15px auto;
+   padding: 5px;
+   border: 1px solid #ccc;
+   font-family: Arial; 
+   font-size: 16pt;
+   width:50%;
+   color: white;
+
+   -moz-border-radius: 11px;
+   -webkit-border-radius: 11px;
+   border-radius: 11px;
+   behavior: url(border-radius.htc);
+
+    }
